@@ -24,6 +24,11 @@ public class CourseController {
         return "Hello from ECS";
     }
 
+    @GetMapping("/message")
+    public String getMessage(){
+        return "Hello MESSAGE ...........from ECS";
+    }
+
     @PostMapping(produces = "application/json", consumes = "application/json")
     public ResponseEntity<Course> addCourse(@RequestBody Course course) {
         courseService.addCourse(course);
