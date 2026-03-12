@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CourseServiceAwscodebuildApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CourseServiceAwscodebuildApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CourseServiceAwscodebuildApplication.class, args);
+    }
 
 }
