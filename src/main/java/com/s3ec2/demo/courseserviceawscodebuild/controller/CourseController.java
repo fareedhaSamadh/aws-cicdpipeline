@@ -21,7 +21,7 @@ public class CourseController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Hello from ECS";
+        return "Hello from ECS Services";
     }
 
     @GetMapping("/message")
