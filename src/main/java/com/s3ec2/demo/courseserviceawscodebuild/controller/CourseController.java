@@ -26,7 +26,7 @@ public class CourseController {
 
     @GetMapping("/message")
     public String getMessage(){
-        return "Hello MESSAGE ...........from ECS";
+        return "Hello UPDATED MESSAGE ...........from ECS";
     }
 
     @PostMapping(produces = "application/json", consumes = "application/json")
